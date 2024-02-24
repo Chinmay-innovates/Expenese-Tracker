@@ -1,11 +1,13 @@
 <h1>Expense Tracker </h1>
 <h2>
   
-to track your expenses total and save them 
+To Track your Expenses Total and Save them <br>
 </h2>
 
-funcionalites implemented:
 <br>
+<h4>
+funcionalites implemented:
+  
  1.localStorage
 <br>
  2.custom Hooks
@@ -22,3 +24,5 @@ funcionalites implemented:
 <br>
 
 <br>
+
+</h4>
