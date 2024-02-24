@@ -44,6 +44,7 @@ export default function ExpenseTable({
       >
         <thead>
           <tr>
+            {/* Title Column */}
             <th className='amount-column'>
               <div>
                 <span>Title</span>
@@ -75,6 +76,8 @@ export default function ExpenseTable({
                 </svg>
               </div>
             </th>
+
+            {/* Category Column */}
             <th>
               <select onChange={(e) => setQuery(e.target.value.toLowerCase())}>
                 <option value=''>All</option>
@@ -85,6 +88,8 @@ export default function ExpenseTable({
                 <option value='medicine'>Medicine</option>
               </select>
             </th>
+
+            {/* Amount Column */}
             <th className='amount-column'>
               <div>
                 <span>Amount</span>
@@ -140,6 +145,7 @@ export default function ExpenseTable({
           </tr>
         </tbody>
       </table>
+
       <button
         className='clear-sort'
         onClick={() => {
@@ -148,6 +154,7 @@ export default function ExpenseTable({
       >
         Clear Sort !
       </button>
+     
     </>
   );
 }
